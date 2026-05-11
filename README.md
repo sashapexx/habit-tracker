@@ -129,7 +129,7 @@ habit-tracker-project.html
 
 ```bash
 # Cloner le repo
-git clone https://github.com/ton-user/habit-tracker.git
+git clone https://github.com/sashapexx/habit-tracker.git
 cd habit-tracker
 
 # Ouvrir en développement (serveur local recommandé)
