@@ -1,0 +1,99 @@
+{
+  "version": "2.0.0",
+  "categories": [
+    {
+      "id": "body",
+      "label": "CORPS & PHYSIQUE",
+      "habits": [
+        {
+          "id": "sport",
+          "icon": "🏋️",
+          "name": "Sport / Musculation",
+          "type": "check",
+          "description": "Séance de musculation ou salle effectuée"
+        },
+        {
+          "id": "run",
+          "icon": "🏃",
+          "name": "Course à pied",
+          "type": "check",
+          "description": "Sortie running effectuée"
+        },
+        {
+          "id": "diet",
+          "icon": "🥗",
+          "name": "Alimentation saine",
+          "type": "score",
+          "description": "Qualité globale de l'alimentation sur la journée"
+        },
+        {
+          "id": "water",
+          "icon": "💧",
+          "name": "Hydratation (eau)",
+          "type": "score",
+          "description": "Consommation d'eau suffisante (objectif : 2L+)"
+        },
+        {
+          "id": "sleep",
+          "icon": "🌙",
+          "name": "Sommeil (heure + durée)",
+          "type": "score",
+          "description": "Qualité et durée du sommeil (objectif : 7h30+)"
+        }
+      ]
+    },
+    {
+      "id": "mind",
+      "label": "MENTAL & PRODUCTIVITÉ",
+      "habits": [
+        {
+          "id": "work",
+          "icon": "⚡",
+          "name": "Productivité / Travail",
+          "type": "score",
+          "description": "Niveau de focus, d'efficacité et d'avancement"
+        },
+        {
+          "id": "read",
+          "icon": "📖",
+          "name": "Lecture / Apprentissage",
+          "type": "check",
+          "description": "Session de lecture ou apprentissage (min. 20 min)"
+        },
+        {
+          "id": "mind",
+          "icon": "🧠",
+          "name": "Méditation / Discipline",
+          "type": "check",
+          "description": "Practice de méditation, mindfulness ou focus intentionnel"
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "label": "HYGIÈNE DE VIE",
+      "habits": [
+        {
+          "id": "screen",
+          "icon": "📵",
+          "name": "Sans écrans / Réseaux",
+          "type": "check",
+          "description": "Journée sans scrolling passif sur les réseaux sociaux"
+        },
+        {
+          "id": "hygiene",
+          "icon": "✨",
+          "name": "Hygiène & Soins perso",
+          "type": "check",
+          "description": "Routine d'hygiène complète respectée"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "excellentDay": 8,
+    "streakMinScore": 5,
+    "checkboxValue": 10,
+    "maxScoreValue": 10
+  }
+}
